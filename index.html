@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<link rel="stylesheet" href="./css/normalize.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap" rel="stylesheet">
+		<title>Конвертер валюты</title>
+		<link rel="shortcut icon" href="./img/icon.ico">
+	</head>
+	<body>
+		<div class="container">
+			<form>
+				<a href="./index.html" class=""><h1>Конвертер валюты</h1></a>
+				<div class="date"></div>
+				<div class="courses">
+					
+					<div class="course-item">
+						<div class="course-item-title">Курс USD ($)</div>
+						<div class="course-item-value" data-value="USD">--.--</div>
+					</div>
+					<div class="course-item">
+						<div class="course-item-title">Курс EUR (€)</div>
+						<div class="course-item-value" data-value="EUR">--.--</div>
+					</div>
+					<div class="course-item">
+						<div class="course-item-title">Курс GPB (£)</div>
+						<div class="course-item-value" data-value="GBP">--.--</div>
+					</div>
+				</div>
+				<div class="form">
+					<div class="form-container">
+						<div class="form-select">
+							<label for="name"></label>
+							<select disabled class="form-control" id="exampleFormControlSelect1">
+								<option value="RUB" selected>RUB — Рубли</option>
+							</select>
+						</div>
+						<div>
+							<input id="input" type="number" class="form-control" id="name" autofocus/>
+						</div>
+					</div>
+					<div class="form-container">
+						<div class="form-select">
+							<label for="name"></label>
+							<select id="select" class="form-control" id="exampleFormControlSelect1"></select>
+						</div>
+						<div>
+							<input id="result" type="number" class="form-control" id="name"/>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
